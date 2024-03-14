@@ -1,3 +1,6 @@
-message = str(input("Enter a message: "))
+user_name_input = str(input("Please enter your name: "))
 
-print(message)
+print(f"""
+Hello {user_name_input}, welcome to your very own website.
+This your website domain name: www.{user_name_input.lower().replace(" ", "")}.com
+""")
